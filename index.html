@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Header image container (rotating banner) -->
+        <div id="header-image" class="header-image"></div>
+
+        <h1>Your Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="content-section"></section>
+        <section id="research" class="content-section"></section>
+        <section id="publications" class="content-section"></section>
+    </main>
+
+    <footer>
+        <p>© <span id="current-year"></span> Your Name</p>
+    </footer>
+
+    <!-- Loading indicator -->
+    <div id="loading">Loading content...</div>
+
+    <!-- Configure content source -->
+    <script src="config.js"></script>
+    <!-- Markdown parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Main script to load content -->
+    <script src="main.js"></script>
+</body>
+</html>
