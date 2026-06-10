@@ -1,3 +1,5 @@
 # Research
 
-Life is a strikingly improbable form of molecular matter, distinguished not only by its exceptional functional properties, but also by its potential to dynamically exhibit new functions in response to a changing environment - in other words, by its ability to adapt. Through a combination of minimal physical models and machine learning approaches, my work seeks to identify how different “rules of the game” for creating matter make the emergence of adaptation inevitable rather than impossible. 
+Life is a strikingly improbable form of molecular matter; living systems are made from ordinary molecular components, yet they display an extraordinary ability to adapt. Living systems sense changing environments, reorganize their internal states, and discover new functional behaviors. What physical principles allow for the emergence of these adaptive abilities?
+
+To answer this question, I study how different “rules of the game” for creating matter allow for the emergence of adaptation in simple molecular and soft-matter systems. Current interests include learning in molecular networks, fluctuating selective environments, and collectively encoded information.
