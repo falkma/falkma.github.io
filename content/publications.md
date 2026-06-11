@@ -1,7 +1,7 @@
-# Selected publications
+# Papers
 A complete list is available on my [Google Scholar profile](https://scholar.google.com/citations?user=nHebvFsAAAAJ&hl=en).
 
-## Publications
+## Selected Publications
 
 - **Temporal contrastive learning through implicit non-equilibrium memory.**
   
