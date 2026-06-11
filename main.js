@@ -1,6 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Set the current year in the footer
-    document.getElementById('current-year').textContent = new Date().getFullYear();
+    // Show when the page was last modified, in the footer
+    const lastUpdated = document.getElementById('last-updated');
+    if (lastUpdated) {
+        const modified = new Date(document.lastModified);
+        lastUpdated.textContent = isNaN(modified)
+            ? ''
+            : modified.toLocaleDateString(undefined, { year: 'numeric', month: 'long' });
+    }
 
     // Set up the rotating header banner if enabled
     if (config.headerImage && config.headerImage.enabled) {
